@@ -1,0 +1,154 @@
+/* import google font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: gray;
+  margin: auto;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(22, 105, 187);
+  border-radius: 3px;
+  padding: 8px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3),
+    -2px -2px 4px rgba(255, 255, 255, 0.3);
+}
+
+.logo {
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  font-size: 20px;
+  border: 2px solid aliceblue;
+  border-radius: 3px;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: aliceblue;
+}
+
+.swap-style {
+  color: aquamarine;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links,
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-links a {
+  word-spacing: 3px;
+  letter-spacing: 0.7px;
+  margin-right: 2px;
+  font-size: 17px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+}
+
+li a:is(:link, :active, :visited) {
+  color: black;
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+}
+
+a:is(:link, :active, :visited).active {
+  color: white;
+  /* background-color: black; */
+}
+
+a:is(:link, :active, :visited).active:focus {
+  color: blue;
+  /* background-color: green; */
+}
+
+.main-container {
+  background-color: antiquewhite;
+  display: grid;
+  place-items: center;
+}
+
+.Bhead {
+  margin-top: 350px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.btn {
+  margin-top: 30px;
+  margin-bottom: 330px;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: blanchedalmond;
+  transition: background-color 0.5s;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+
+.btn:active {
+  background-color: transparent;
+  color: red;
+}
+
+/* css for footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 15px;
+}
+
+.footer_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-3 {
+  flex-basis: 500px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd700;
+}
